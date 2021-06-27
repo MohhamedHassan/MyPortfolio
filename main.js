@@ -60,7 +60,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 16, vars: 0, consts: [[1, "p-5", "d-flex", "justify-content-center", "align-items-center", "parent", 2, "min-height", "100vh"], [1, "text-center"], [1, "mainColor"], [1, "d-flex", "justify-content-center"], ["routerLink", "/projects", 1, "d-flex", "button"], [1, "fas", "fa-sort-down", "ml-2"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 16, vars: 0, consts: [[1, "d-flex", "justify-content-center", "align-items-center", "parent", 2, "min-height", "100vh"], [1, "text-center"], [1, "mainColor"], [1, "d-flex", "justify-content-center"], ["routerLink", "/projects", 1, "d-flex", "button"], [1, "fas", "fa-sort-down", "ml-2"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p", 2);
