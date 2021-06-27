@@ -1,0 +1,21 @@
+.parent {
+    h2 {
+        color:white;
+        line-height: 100px;
+        font-size: 60px;
+    }
+    .mainColor {
+        color:#f5b535
+    }
+    p {
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+       h2 {
+            font-size: 25px;
+            line-height: 45px;
+        }
+    }
+}
