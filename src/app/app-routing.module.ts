@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './component/home/home.component';
+import { NotfoundComponent } from './component/notfound/notfound.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path:'skils',
     loadChildren:() => import('src/app/view/skils/skils.module').then(m => m.SkilsModule)
+  },
+  {
+   path:'**',
+   component:NotfoundComponent
   }
 ];
 
