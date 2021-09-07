@@ -8,6 +8,7 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   modalOne:boolean=false
   modalTwo:boolean=false
+  modalThree:boolean=false
   constructor() {
     
    }
