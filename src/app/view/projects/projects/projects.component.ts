@@ -9,6 +9,7 @@ export class ProjectsComponent implements OnInit {
   modalOne:boolean=false
   modalTwo:boolean=false
   modalThree:boolean=false
+  modalFour:boolean=false
   constructor() {
     
    }

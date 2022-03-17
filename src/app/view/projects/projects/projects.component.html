@@ -2,12 +2,12 @@
     <div class="container">
         <h2 class="mainH2 mb-5">Projects</h2>
         <div class="row">
-            <div class="col-md-12 mb-5">
+            <div class="col-md-6 mb-5">
                 <div class="position-relative overflow-hidden">
                     <img style="height:285px;" src="assets/undraw_Social_media_re_w12q.png" class="w-100" alt="">
                     <div class="over d-flex justify-content-center align-items-center">
                     <div>
-                            <h3 class="mb-3">Facebook_Clone</h3>
+                            <h3 class="mb-3">Facebook Clone</h3>
                             <div class="d-flex justify-content-center">
                                     <div class="gray" (click)="modalThree=true">
                                         <i class="fas fa-tools"></i>
@@ -27,12 +27,13 @@
                     </div>
                 </div>
             </div>
+      
             <div class="col-md-6 mb-5">
                 <div class="position-relative overflow-hidden">
                     <img style="height:285px;" src="assets/restaurant.png" class="w-100" alt="">
                     <div class="over d-flex justify-content-center align-items-center">
                     <div>
-                            <h3 class="mb-3">RestaurantApp</h3>
+                            <h3 class="mb-3">Pizza Hut Clone</h3>
                             <div class="d-flex justify-content-center">
                                     <div class="gray" (click)="modalOne=true">
                                         <i class="fas fa-tools"></i>
@@ -43,6 +44,31 @@
                                         <p>Code</p>
                                     </a>
                                     <a href="https://mohhamedhassan.github.io/Restaurant/" class="gray" target="_blanket">
+                                        <i class="far fa-eye"></i>
+                                        <p>Live</p>
+                                    </a>
+    
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="position-relative overflow-hidden">
+                    <img style="height:285px;" src="assets/cvbuilder.png" class="w-100" alt="">
+                    <div class="over d-flex justify-content-center align-items-center">
+                    <div>
+                            <h3 class="mb-3">CV Builder</h3>
+                            <div class="d-flex justify-content-center">
+                                    <div class="gray" (click)="modalFour=true">
+                                        <i class="fas fa-tools"></i>
+                                        <p>About</p>
+                                    </div>
+                                    <a href="https://github.com/MohhamedHassan/cv-builder.git" target="_blank" class="mx-3 gray">
+                                        <i class="fas fa-code"></i>
+                                        <p>Code</p>
+                                    </a>
+                                    <a href="https://mohhamedhassan.github.io/cv-builder/home" class="gray" target="_blanket">
                                         <i class="far fa-eye"></i>
                                         <p>Live</p>
                                     </a>
@@ -150,7 +176,7 @@ class="popupone one d-flex justify-content-center align-items-center">
         <i class="fas fa-times" (click)="modalThree=false"></i>
        <div style="height:200px;overflow: auto;margin-top: 30px;" class="scrl mr-0 mr-md-5">
         <h3 class="mb-2 font-weight-bold">Project Name:</h3>
-        <p >FAKEBOOK</p>
+        <p >Facebook Clone</p>
         <h3 class="font-weight-bold">About:</h3>
            <ul>
                <li>The website is available in four languages: Arabic, Turkish, German and English</li>
@@ -168,6 +194,39 @@ class="popupone one d-flex justify-content-center align-items-center">
         <p style="line-height:30px">
            
             Html, css, bootstrap, sass, Typescript, angular , Fontawesome ,ngxbootstrap ,angular material, ngx skeleton loder,swiper js , socket io , ngxTranslate
+            
+        </p>
+        <h3 class="font-weight-bold">Backend:</h3>
+        <p style="line-height:30px">
+           
+           Nodejs (by another developer)
+            
+        </p>
+       </div>
+
+    </div>
+</div>
+<div 
+*ngIf="modalFour"
+class="popupone one d-flex justify-content-center align-items-center">
+    <div class="inner bg-white w-75 p-4 position-relative">
+        <i class="fas fa-times" (click)="modalFour=false"></i>
+       <div style="height:200px;overflow: auto;margin-top: 30px;" class="scrl mr-0 mr-md-5">
+        <h3 class="mb-2 font-weight-bold">Project Name:</h3>
+        <p >CV Builder</p>
+        <h3 class="font-weight-bold">About:</h3>
+           <ul>
+               <li>User can Build  resume in three simple steps</li>
+               <li>Fill in the Blanks</li>
+               <li>Pick a template</li>
+               <li>Download  CV</li>
+           </ul>            
+             
+        
+        <h3 class="font-weight-bold">tools:</h3>
+        <p style="line-height:30px">
+           
+            Html, css, bootstrap, Scss, Typescript, angular , Fontawesome , ,angular material,swiper js , Css2PDF
             
         </p>
         <h3 class="font-weight-bold">Backend:</h3>
