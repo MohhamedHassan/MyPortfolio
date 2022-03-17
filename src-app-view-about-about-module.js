@@ -50,7 +50,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 32, vars: 0, consts: [[1, "pt-5", "about", 2, "min-height", "100vh"], [1, "w-100"], [1, "mainH2", "text-center", "mb-5"], [1, "container"], [1, "row", "align-items-center"], [1, "col-md-6", "mb-5", "first"], [1, "d-flex"], [1, "font-weight-bold", "text-white"], [1, "gry"], [1, "gry", 2, "word-break", "break-all"], [1, "col-md-6", "mb-5"], [1, "text-center"], [1, "completed"], [1, "yellow", "mr-2"], [1, "d-flex", "justify-content-center"], ["target", "_blank", "href", "https://drive.google.com/file/d/1hbE-j0pM00DNT7GE9A9aArljVdLqxZ_4/view?usp=sharing", 1, "button"], [1, "fas", "fa-download", "ml-2"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 32, vars: 0, consts: [[1, "pt-5", "about", 2, "min-height", "100vh"], [1, "w-100"], [1, "mainH2", "text-center", "mb-5"], [1, "container"], [1, "row", "align-items-center"], [1, "col-md-6", "mb-5", "first"], [1, "d-flex"], [1, "font-weight-bold", "text-white"], [1, "gry"], [1, "gry", 2, "word-break", "break-all"], [1, "col-md-6", "mb-5"], [1, "text-center"], [1, "completed"], [1, "yellow", "mr-2"], [1, "d-flex", "justify-content-center"], ["target", "_blank", "href", "https://drive.google.com/file/d/1nYjDZ0VPNRJQpm_c2OVrbtRkXyhOczjl/view?usp=sharing", 1, "button"], [1, "fas", "fa-download", "ml-2"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2", 2);
@@ -64,7 +64,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Name:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "span", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Mohhamed Hassan");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Mohamed Hassan");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 6);
@@ -88,7 +88,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "span", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "4");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Projects completed");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
