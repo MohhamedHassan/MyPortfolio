@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'm_portfolio';
+  showNavBar:boolean=false
+  currentTab=1
+  scroll(el: HTMLElement,currenttab:number) {
+    this.currentTab=currenttab
+    this.showNavBar=!this.showNavBar
+    el.scrollIntoView();
+}
 }
